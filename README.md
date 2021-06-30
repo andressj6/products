@@ -15,3 +15,6 @@ Throws generic exception in case some other error (parsing, etc)
 
 #### /{id}
 fetches the product with the provided id or returns a 404 in case the id doesn't exist in the database
+
+### Other considerations
+To move forward, just create some new repositories with entities and use some HQL queries instead of the default spring data ones (that aren't very efficient).
